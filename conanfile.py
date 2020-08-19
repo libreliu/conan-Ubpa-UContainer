@@ -13,7 +13,7 @@ class UContainer(ConanFile):
     exports_sources = "patches/*"
 
     def source(self):
-        self.run("git clone https://github.com/Ubpa/UContainer.git")
+        self.run("git clone https://github.com/Ubpa/UContainer.git --branch 0.0.6 --depth 1")
 
         # TODO: find a elegent way of copying
         content = tools.load("patches/UbpaEssential.cmake")

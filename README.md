@@ -6,7 +6,7 @@
 
 ## TODO
 - [ ] 写个通用 Patch
-- [ ] Git commit 哈希写进去
+- [x] Git commit 哈希写进去
 - [ ] 补充 `test()` 方法
 
 ## 思路
