@@ -47,6 +47,7 @@ class UContainer(ConanFile):
 
     def package(self):
         self.copy("*.h", dst="include", src="UContainer/include")
+        self.copy("*.inl", dst="include", src="UContainer/include")
         self.copy("*.lib", dst="lib", keep_path=False)
         self.copy("*.dll", dst="bin", keep_path=False)
         self.copy("*.so", dst="lib", keep_path=False)
